@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "paths": {
+      "*": [
+        "./*"
+      ]
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "allowUnreachableCode": false,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "jsx": "preserve",
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "types": ["node"]
+  },
+  "include": [
+    "types/*.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "types/vitest.d.ts"
+  ],
+  "exclude": [
+    "docs",
+    "node_modules",
+    "**/*.e2e.ts",
+    "cypress",
+    "ignore",
+    "workers"
+  ]
+}
