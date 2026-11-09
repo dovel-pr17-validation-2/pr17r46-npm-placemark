@@ -1,5 +1,15 @@
 # @placemarkio/play
 
+## 0.6.0
+
+### Minor Changes
+
+- 8947c8c: Add atproto persistence for maps
+
+### Patch Changes
+
+- 8947c8c: Switch from polygon-clipping to polystrata for intersection, difference, and union operations
+
 ## 0.5.0
 
 ### Minor Changes
